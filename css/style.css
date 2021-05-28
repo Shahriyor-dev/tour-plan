@@ -518,6 +518,7 @@ template {
   .menu-button {
     width: 16px;
     height: 11px;
+    padding: 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
