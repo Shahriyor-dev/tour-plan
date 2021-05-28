@@ -13,16 +13,11 @@ body {
   margin: auto;
 }
 
-.header {
+.navbar {
   background-color: #fff;
 }
 
-.header-search {
-  margin-right: auto;
-  margin-left: 108px;
-}
-
-.header-top {
+.navbar-top {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -32,10 +27,16 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 40px 0;
+  padding: 60px 0;
+  height: 40px;
 }
 
-.search {
+.navbar-search {
+  margin-right: auto;
+  margin-left: 108px;
+}
+
+.navbar .search {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -45,7 +46,7 @@ body {
   overflow: hidden;
 }
 
-.search__input {
+.navbar__input {
   width: 350px;
   padding-left: 23px;
   padding-right: 75px;
@@ -57,7 +58,7 @@ body {
   color: #333;
 }
 
-.search__button {
+.navbar__button {
   position: absolute;
   height: 100%;
   width: 65px;
