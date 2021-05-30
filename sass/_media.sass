@@ -1,6 +1,9 @@
 @media (max-width:1200px)
   .container
     max-width: 960px
+  .card
+    width: 230px
+    height: 230px
 @media (max-width:992px)
   .container,
   .newsletter-wrapper
@@ -20,6 +23,14 @@
   .search
     &__input
       max-width: 340px
+  .activities
+    &-wrapper
+      flex-wrap: wrap
+    &__card
+      margin-bottom: 20px
+  .card
+    width: 340px
+    height: 230px
 @media (max-width:768px)
   .container
     max-width: 576px
@@ -72,6 +83,14 @@
       align-items: flex-start
       max-width: 576px
       width: 92%
+  .reviews
+    display: none
+  .activities
+    padding-top: 40px
+    padding-bottom: 60px
+  .card
+    width: 49%
+    height: 255px
 @media (max-width:576px)
   .logo
     &__img
@@ -88,3 +107,5 @@
     &__strong
       font-size: 30px
       line-height: 38px
+  .card
+    width: 100%
