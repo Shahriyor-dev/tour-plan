@@ -1,0 +1,76 @@
+.footer
+  background-color: $dark
+  color: $light
+  padding-top: 108px
+  padding-bottom: 46px
+  &-wrapper
+    display: grid
+    grid-template-columns: repeat(4, minmax(250px, 1fr))
+    grid-gap: 20px
+    grid-auto-rows: minmax(40px, min-content)
+    align-items: center
+  &__logo
+    width: 166px
+    align-self: stretch
+    grid-row: 1 / 4
+  &__categories
+    grid-row: 1 / 4
+    align-self: stretch
+  &__social
+    &-links
+      display: flex
+      align-items: center
+      min-width: 83px
+      justify-content: space-between
+    &-network
+      display: flex
+      grid-row: 2 / 4
+      grid-column: span 2
+  &__contact-details
+    grid-column: span 2
+  &__ul
+    margin: 0
+    padding: 0
+    list-style: none
+  &__title
+    font-style: normal
+    font-weight: bold
+    font-size: 18px
+    line-height: 23px
+    margin: 0 0 16px 0
+    text-transform: uppercase
+    &--inline
+      margin: 0 43px 0 0
+  &__item
+    font-size: 14px
+    font-weight: normal
+    line-height: 160%
+    font-style: normal
+    color: $footer-text-color
+  &__link
+    text-decoration: none
+    color: inherit
+textarea
+  width: 540px
+  height: 123px
+.info
+  padding-top: 105px
+  &__container
+    max-width: 696px
+    margin: auto
+  &-wrapper
+    display: flex
+    justify-content: space-between
+    align-items: center
+  &-list
+    display: flex
+    list-style: none
+    &__item
+      margin-right: 20px
+    &__link
+      text-decoration: none
+      color: inherit
+      font-style: normal
+      font-weight: normal
+      font-size: 12px
+      line-height: 15px
